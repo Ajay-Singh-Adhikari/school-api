@@ -94,7 +94,7 @@ app.get("/listSchools", async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT =Process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
