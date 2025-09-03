@@ -1,4 +1,4 @@
-# 🏫 School Management API
+# School Management API
 
 A simple Node.js + Express + MySQL backend project for managing schools.  
 The API allows you to **add schools** and **list schools sorted by proximity** to a given location.
